@@ -1,8 +1,8 @@
-"""Empty Init
+"""Renaming students to scholars
 
-Revision ID: 6b9cb35ba46e
-Revises: 
-Create Date: 2022-08-04 13:21:26.936909
+Revision ID: b678271110be
+Revises: ccd443902577
+Create Date: 2024-02-23 07:32:05.542452
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '6b9cb35ba46e'
-down_revision = None
+revision = 'b678271110be'
+down_revision = 'ccd443902577'
 branch_labels = None
 depends_on = None
 
